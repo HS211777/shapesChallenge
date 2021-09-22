@@ -35,7 +35,7 @@ public class Main {
         int length1;
         for (i = 0; i < userInput; i++){
             spaceInsert += 1;
-            output = output.replaceAll(" ","");
+            output = output.trim();
             String numberAdd1 = Integer.toString(numberAdd);
             length1 = numberAdd1.length();
             output = output.substring(length1,output.length()-length1);
